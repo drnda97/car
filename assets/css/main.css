@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+html,
+body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+  display: block;
+  content: '';
+  clear: both;
+  height: 1px;
+  visibility: hidden;
+}
+.secret{
+  display: none;
+}
+/* ===========================================nav================================================== */
+nav .image_wrapper a,
+nav .image_wrapper img{
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.image_wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+}
+nav{
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+nav ul{
+  margin-top: -15px;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+nav ul li{
+  display: block;
+  float: left;
+  width: 9%;
+  margin: 4px;
+  position: relative;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  padding-top: 5px;
+}
+nav ul li a:hover{
+  border-bottom: 1px solid #000;
+  margin-top: -1px;
+}
+.sub_nav{
+  display: none;
+  padding-left: 0;
+  position: absolute;
+  float: none;
+  background-color: #fff;
+  z-index: 900;
+  width: 100%;
+  transition: all .3s linear;
+}
+.sub_nav li {
+  display: block;
+  float: none;
+  width: 100%;
+}
+.nav_wrapper ul li:hover .sub_nav{
+	display: block !important;
+  opacity: 1;
+	position: relative;
+}
+/* ===========================================userpage================================================== */
+.userpage_logo{
+  width: 100%;
+  display: block;
+  float: none;
+  margin-top: 150px;
+}
+.offer{
+  display: block;
+  float: none;
+  width: 100%;
+  background-image: url('../images/electric.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+   -webkit-background-size: 100%;
+   -o-background-size: 100%;
+   -moz-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+.offer .headline{
+  display: block;
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 46px;
+  color: #ec1c23;
+}
+.offer p{
+  font-size: 20px;
+  color: #fff;
+}
+.text_wrapper{
+  display: block;
+  float: none;
+  width: 1000px;
+  margin: 0 auto;
+}
+.car_offer{
+  display: block;
+  float: left;
+  width: 25%;
+  border-radius: 50%;
+}
+.car_offer img{
+  width: 100%;
+  height: 250px;
+}
+.car_offer span{
+  display: block;
+  width: 100%;
+  background-color: #000;
+  margin-top: -10px;
+}
+.car_offer span a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 5;
+}
+.what_we_can h1{
+  color: #ec1c23;
+  display: block;
+  padding-top: 70px !important;
+}
+.what_we_can span{
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 70px;
+}
+.informations{
+  background-color: #ec1c23;
+  text-align: left;
+  color: #fff;
+}
+.informations .text_wrapper{
+  padding: 50px !important;
+}
+.contact{
+  display: block;
+  float: none;
+  width: 100%;
+}
+.contact .half{
+  width: 50%;
+  float: left;
+  color: #fff;
+}
+.half{
+  background-color: #fff;
+  height: 450px;
+  color: #000 !important;
+}
+.half h2{
+  padding-top: 100px;
+}
+.half img{
+  width: 100%;
+}
+.half a{
+  text-decoration: none;
+  color: #000;
+}
+.half .icons{
+  margin-top: 15px;
+}
+.half .icons img{
+  width: 25px !important;
+}
+.icons a{
+  text-decoration: none;
+}
+.icons {
+  padding-top: 30px;
+}
+/* ===========================================mark================================================== */
+.image_holder{
+  margin-top: 120px;
+  position: relative;
+  margin-bottom: 150px;
+  display: block;
+  float: none;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  overflow: hidden;
+}
+.image_holder img{
+  display: block;
+  margin-top: -30px;
+  width: 100%;
+}
+.image_holder .inner_text{
+  position: absolute;
+  top: 20%;
+  left: 26%;
+}
+.image_holder h1{
+  padding-top: 10%;
+}
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+.description{
+  width: 48%;
+  float: left;
+  height: 360px;
+  margin-bottom: 32px;
+  background-color: #f4f5f5;
+}
+.car_image{
+  width: 48%;
+  float: right;
+  margin-bottom: 25px;
+}
+.car_image img{
+  width: 100%;
+  height: 360px;
+}
+.description a{
+  text-decoration: none;
+  color: #000;
+}
+.description h1{
+    display: block;
+    margin-top: 110px;
+}
+/* ===========================================car================================================== */
+.stretch{
+  margin-top: 150px;
+}
+.model_wrapper:nth-child(even){
+  background-color: #ec1c23;
+}
+.model_wrapper:nth-child(even){
+  color: #fff !important;
+}
+.picture{
+  border-radius: 50%;
+  width: 500px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.picture img{
+  display: block;
+  width: 100%;
+}
+.car_name h1{
+  color: #ec1c23;
+}
+.model_wrapper:nth-child(even) .car_name h1{
+  color: #fff;
+}
+.we_can_this ul{
+  list-style: none;
+}
+.we_can_this ul{
+  font-style: italic;
+}
+.we_can_this{
+  padding-bottom: 50px;
+}
+/* ===========================================gallery================================================== */
+.image_card{
+  width: 45%;
+  height: 280px;
+  float: left;
+  margin: 15px;
+  box-shadow: 5px 5px 5px silver;
+}
+.image_card img{
+  width: 100%;
+}
